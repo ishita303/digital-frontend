@@ -1,0 +1,187 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.phone {
+  width: 86px;
+  color: rgba(174,172,172,1);
+  position: absolute;
+  top: 266px;
+  left: 16px;
+  font-family: Open Sans;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.no {
+  width: 25px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 287px;
+  left: 16px;
+  font-family: Open Sans;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.but1 {
+  width: 328px;
+  height: 54px;
+  background: rgba(187,75,41,1);
+  opacity: 1;
+  position: absolute;
+  top: 338px;
+  left: 16px;
+  border: 0px solid rgba(150,150,150,1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.but2 {
+  width: 328px;
+  height: 54px;
+  background: rgba(187,75,41,1);
+  opacity: 1;
+  position: absolute;
+  top: 446px;
+  left: 16px;
+  border: 1px solid rgba(187,75,41,1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+#a1:link, #a1:visited, #a1:active, #a1:hover{
+  text-decoration: none  !important;
+  color:white;
+}
+.otp {
+  width: 74px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 354px;
+  left: 140px;
+  font-family: Open Sans;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.ema {
+  width: 156px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 462px;
+  left: 99px;
+  font-family: Open Sans;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.blockimg {
+  width: 329px;
+  height: 222px;
+  background: url("../../images/auth/signup.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 16px;
+  overflow: hidden;
+}
+
+.nicon{
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  left: 16px;
+  top: 295px;
+}
+.ntext {
+ width: 290px;
+ height: 30px;
+ background: white;
+ position: absolute;
+ top: 290px;
+ left: 50px;
+ outline: none;
+ border: none;
+ border-bottom: 0.1px solid rgba(150,150,150,1);
+ color: black;
+ padding-left: 60px;
+}
+.ntext:focus{
+  outline: none;
+}
+
+.or {
+ width: 23px;
+ color: rgba(0,0,0,1);
+ position: absolute;
+ top: 408px;
+ left: 169px;
+ font-family: Open Sans;
+ font-weight: Regular;
+ font-size: 16px;
+ opacity: 1;
+ text-align: left;
+}
+.term {
+ width: 328px;
+ color: rgba(0,0,0,1);
+ position: absolute;
+ top: 550px;
+ left: 18px;
+ font-family: Open Sans;
+ font-size: 14px;
+ opacity: 1;
+ text-align: left;
+}
+
+#a3:link, #a3:visited, #a3:active, #a3:hover{
+  text-decoration: none;
+  color:black;
+}
+
+/*Terms and Privacy Policy */
+.navhead{
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #F8F9FB;
+}
+.arrow{
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  left: 16px;
+  top: 24px;
+}
+.heading{
+  position: relative;
+  width: 128px;
+  height: 22px;
+  left: 42px;
+  top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #352732;
+}
+#a4:link, #a4:visited, #a4:active, #a4:hover{
+  text-decoration: none  !important;
+  color:rgba(187,75,41,1);
+}

@@ -1,0 +1,378 @@
+* {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.main {
+  width: 360px;
+  height: 1850px;
+  background: white;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.page {
+  width: 361px;
+  height: 641px;
+  background: url("../images/back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.back {
+  width: 360px;
+  height: 640px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.logo {
+  width: 68px;
+  height: 64px;
+  background: url("../images/logo.jpeg");
+  opacity: 1;
+  position: absolute;
+  top: 288px;
+  left: 146px;
+}
+.navhead{
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #F8F9FB;
+}
+.arrow{
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  left: 16px;
+  top: 24px;
+}
+.heading{
+  position: relative;
+  width: 128px;
+  height: 22px;
+  left: 42px;
+  top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #352732;
+}
+
+
+/*Step1*/
+.head1{
+  position: absolute;
+  width: 164px;
+  height: 38px;
+  left: 56px;
+  top: 116px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BB4B29;
+}
+.img1{
+  position: absolute;
+  width: 240px;
+  height: 177px;
+  left: 104px;
+  top: 178px;
+}
+.step1 .num{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 16px;
+  top: 178px;
+}
+.step1 .stripe1{
+  position: absolute;
+  width: 1px;
+  height: 137px;
+  left: 40px;
+  top: 226px;
+}
+.step1 .stripe2{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 40.5px;
+  top: 333px;
+}
+.step1 .stripe3{
+  position: absolute;
+  width: 218px;
+  height: 1px;
+  left: 71.5px;
+  top: 394.5px;
+}
+.step1 .stripe4{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 260.5px;
+  top: 395px;
+}
+.step1 .stripe5{
+  position: absolute;
+  width: 1px;
+  height: 88px;
+  left: 321px;
+  top: 426px;
+}
+
+/*Step2*/
+.head2{
+  position: absolute;
+  width: 137px;
+  height: 38px;
+  left: 56px;
+  top: 435px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BB4B29;
+}
+.img2{
+  position: absolute;
+  width: 240px;
+  height: 229px;
+  left: 16px;
+  top: 513px;
+}
+.step2 .num{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 296px;
+  top: 513px;
+}
+.step2 .stripe1{
+  position: absolute;
+  width: 1px;
+  height: 190px;
+  left: 321px;
+  top: 561px;
+}
+.step2 .stripe2{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 259.5px;
+  top: 720px;
+}
+.step2 .stripe3{
+  position: absolute;
+  width: 214px;
+  height: 1px;
+  left: 73.5px;
+  top: 781.5px;
+}
+.step2 .stripe4{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 40.46px;
+  top: 782.03px;
+}
+.step2 .stripe5{
+  position: absolute;
+  width: 1px;
+  height: 67px;
+  left: 40px;
+  top: 817px;
+}
+
+/*Step3*/
+.head3{
+  position: absolute;
+  width: 188px;
+  height: 38px;
+  left: 56px;
+  top: 822px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BB4B29;
+}
+.img3{
+  position: absolute;
+  width: 240px;
+  height: 210px;
+  left: 104px;
+  top: 884px;
+}
+.step3 .num{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 16px;
+  top: 884px;
+}
+.step3 .stripe1{
+  position: absolute;
+  width: 1px;
+  height: 167px;
+  left: 40px;
+  top: 932px;
+}
+.step3 .stripe2{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 40.5px;
+  top: 1072px;
+}
+.step3 .stripe3{
+  position: absolute;
+  width: 208px;
+  height: 1px;
+  left: 76.5px;
+  top: 1133.5px;
+}
+.step3 .stripe4{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 259.5px;
+  top: 1134px;
+}
+.step3 .stripe5{
+  position: absolute;
+  width: 1px;
+  height: 68px;
+  left: 320px;
+  top: 1168px;
+}
+
+/*Step4*/
+.head4{
+  position: absolute;
+  width: 124px;
+  height: 38px;
+  left: 56px;
+  top: 1174px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BB4B29;
+}
+.img4{
+  position: absolute;
+  width: 261px;
+  height: 227px;
+  left: 16px;
+  top: 1169px;
+}
+.step4 .num{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 296px;
+  top: 1236px;
+}
+.step4 .stripe1{
+  position: absolute;
+  width: 1px;
+  height: 112px;
+  left: 320px;
+  top: 1284px;
+}
+.step4 .stripe2{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 258.5px;
+  top: 1370px;
+}
+.step4 .stripe3{
+  position: absolute;
+  width: 214px;
+  height: 1px;
+  left: 73.5px;
+  top: 1430.5px;
+}
+.step4 .stripe4{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 40.5px;
+  top: 1431px;
+}
+.step4 .stripe5{
+  position: absolute;
+  width: 1px;
+  height: 67px;
+  left: 40px;
+  top: 1466px;
+}
+
+/*Step5*/
+.head5{
+  position: absolute;
+  width: 125px;
+  height: 38px;
+  left: 56px;
+  top: 1472px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BB4B29;
+}
+.img5{
+  position: absolute;
+  width: 240px;
+  height: 233px;
+  left: 104px;
+  top: 1533px;
+}
+.step5 .num{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 16px;
+  top: 1533px;
+}
+.step5 .stripe1{
+  position: absolute;
+  width: 1px;
+  height: 137px;
+  left: 39.5px;
+  top: 1581px;
+}
+.step5 .stripe2{
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 40px;
+  top: 1704px;
+}
+.step5 .stripe3{
+  position: absolute;
+  width: 31px;
+  height: 1px;
+  left: 80px;
+  top: 1764.5px;
+}

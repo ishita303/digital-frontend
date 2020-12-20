@@ -1,0 +1,88 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.navhead{
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #F8F9FB;
+}
+.arrow{
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  left: 16px;
+  top: 24px;
+}
+.heading{
+  position: relative;
+  width: 128px;
+  height: 22px;
+  left: 42px;
+  top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #352732;
+}
+.head{
+  position: absolute;
+  width: 290px;
+  height: 19px;
+  left: 16px;
+  top: 17px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #352732;
+}
+.body{
+  position: absolute;
+  width: 290px;
+  height: 48px;
+  left: 16px;
+  top: 45px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #352732;
+}
+.date{
+  position: absolute;
+  width: 118px;
+  height: 12px;
+  left: 16px;
+  top: 100px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 12px;
+  color: rgba(53, 39, 50, 0.501175);
+}
+.noti1{
+  position: absolute;
+  width: 360px;
+  height: 132px;
+  left: 0px;
+  top: 62px;
+  background: rgba(241, 239, 235, 0.5);
+}
+.noti2{
+  position: absolute;
+  width: 360px;
+  height: 132px;
+  left: 0px;
+  top: 200px;
+  background: rgba(241, 239, 235, 0.5);
+}

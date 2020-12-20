@@ -1,0 +1,222 @@
+/* OTP Page*/
+.numbs{
+position: absolute;
+width: 363px;
+height: 233px;
+left: 0px;
+top: 407px;
+overflow: hidden;
+background: #ECEFF0;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12), inset 0px 0.5px 0px rgba(255, 255, 255, 0.8);
+}
+
+.mask{
+  position: absolute;
+  width: 363px;
+  height: 231.96px;
+  left: 0%;
+  right: 3%;
+  top: 0.44%;
+  bottom: 3%;
+  overflow: hidden;
+  background: #ECEFF0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12), inset 0px 0.5px 0px rgba(255, 255, 255, 0.8);
+}
+
+.num{
+  display: inline-block;
+  position: relative;
+  width: 110px;
+  height: 53px;
+  margin: 2px;
+  border-radius: 0px;
+  border: solid #ECEFF0;
+  font-size: 24px;
+  line-height: 22px;
+  font-weight: 520;
+  font-family: Roboto;
+  font-style: SemiBold;
+}
+.inner{
+  position: relative;
+  left: 3.22%;
+  right: 3.89%;
+  top: 12.89%;
+  bottom: 81.1%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  color: black;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.plus{
+  position: relative;
+  left: 3.22%;
+  right: 3.89%;
+  top: 88.77%;
+  bottom: 8.44%;
+  color: #37474F;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.del{
+  display: inline-block;
+  position: relative;
+  width: 110px;
+  height: 53px;
+  padding: inherit;
+  border-radius: 0px;
+  border: solid #ECEFF0;
+}
+.tick{
+  display: inline-block;
+  position: relative;
+  width: 110px;
+  height: 53px;
+  padding: inherit;
+  border-radius: 0px;
+  border: solid #ECEFF0;
+}
+
+/* OTP1 */
+
+.text1{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: 16px;
+  top: 100px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+}
+.enter-otp{
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 16px;
+  top: 168px;
+}
+.enter1{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 18px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+#nummy{
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.enter2{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 84px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.enter3{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 152px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.enter4{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 220px;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.but3 {
+  width: 328px;
+  height: 54px;
+  background: rgba(187,75,41,1);
+  opacity: 1;
+  position: absolute;
+  top: 250px;
+  left: 16px;
+  border: 1px solid rgba(187,75,41,1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.cont {
+  width: 74px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 270px;
+  left: 140px;
+  font-family: Open Sans;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.text{
+  position: absolute;
+  width: 143px;
+  height: 16px;
+  left: 16px;
+  top: 330px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #AEACAC;
+}
+.login1{
+  position: absolute;
+  width: 100px;
+  height: 16px;
+  left: 90px;
+  top: 330px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #BB4B29;
+}
+.time{
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 180px;
+  top: 330px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+}

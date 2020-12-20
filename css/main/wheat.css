@@ -1,0 +1,137 @@
+.headie{
+  position: absolute;
+  width: 173px;
+  height: 25px;
+  left: 16px;
+  top: 180px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #353030;
+}
+.info{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 185px;
+  top: 186px;
+}
+.wheat1{
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  left: 16px;
+  top: 221px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.wtext1{
+  position: absolute;
+  left: 15.38%;
+  right: 15.38%;
+  top: 13.46%;
+  bottom: 68.27%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #A5A3A3;
+}
+.wimg1{
+  position: absolute;
+  width: 31.82px;
+  height: 35.27px;
+  left: 36px;
+  top: 59.29px;
+}
+.wheat2{
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  left: 128px;
+  top: 221px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.wtext2{
+  position: absolute;
+  left: 15.38%;
+  right: 15.38%;
+  top: 13.46%;
+  bottom: 68.27%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #A5A3A3;
+}
+.wimg2{
+  position: absolute;
+  width: 31.82px;
+  height: 35.27px;
+  left: 36px;
+  top: 59.29px;
+}
+.wheat3{
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  left: 240px;
+  top: 222px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.wtext3{
+  position: absolute;
+  left: 15.38%;
+  right: 15.38%;
+  top: 13.46%;
+  bottom: 68.27%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #A5A3A3;
+}
+.wimg3{
+  position: absolute;
+  width: 31.82px;
+  height: 35.27px;
+  left: 36px;
+  top: 59.29px;
+}
+.but{
+  position: absolute;
+  width: 260px;
+  height: 54px;
+  left: 50px;
+  top: 350px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.btext{
+  position: absolute;
+  width: 200px;
+  height: 22px;
+  left: 25px;
+  top: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #A5A3A3;
+}

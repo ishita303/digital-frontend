@@ -1,0 +1,278 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: Open Sans;
+  background: #F8F9FB;
+}
+.navhead{
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background: #F8F9FB;
+}
+.arrow{
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  left: 16px;
+  top: 24px;
+}
+.heading{
+  position: relative;
+  width: 128px;
+  height: 22px;
+  left: 42px;
+  top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #352732;
+}
+#a1:link, #a1:visited, #a1:active, #a1:hover{
+  text-decoration: none  !important;
+  color:#BB4B29;
+}
+.block1{
+  position: absolute;
+  width: 328px;
+  height: 209px;
+  left: 16px;
+  top: 76px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.profile{
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  left: 16px;
+  top: 20px;
+  overflow-y:hidden;
+}
+.edit{
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  left: 295px;
+  top: 15px;
+}
+.name{
+  position: absolute;
+  width: 85px;
+  height: 22px;
+  left: 136px;
+  top: 35px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #352732;
+}
+.email{
+  position: absolute;
+  width: 126px;
+  height: 16px;
+  left: 136px;
+  top: 65px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #352732;
+}
+.num{
+  position: absolute;
+  width: 93px;
+  height: 16px;
+  left: 136px;
+  top: 85px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #352732;
+}
+.divi{
+  position: absolute;
+  width: 328px;
+  height: 0.1px;
+  left: 0px;
+  top: 125px;
+  border: 0.1px solid rgba(151, 151, 151, 0.495493);
+}
+.loci{
+  position: absolute;
+  display: flex;
+  width: 11px;
+  height: 15px;
+  left: 20px;
+  top: 140px;
+}
+.ltext{
+  position: absolute;
+  width: 98px;
+  height: 16px;
+  left: 35px;
+  top: 140px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #352732;
+}
+.lbody{
+  position: absolute;
+  width: 216px;
+  height: 32px;
+  left: 20px;
+  top: 160px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #352732;
+}
+.change{
+  position: absolute;
+  width: 44px;
+  height: 17px;
+  left: 245px;
+  top: 180px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #BB4B29;
+}
+.cimg{
+  position: absolute;
+  width: 5px;
+  height: 9px;
+  left: 292px;
+  top: 184px;
+  transform: rotate(-180deg);
+}
+.wallet{
+  position: absolute;
+  width: 64px;
+  height: 19px;
+  left: 60px;
+  top: 320px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.wimg{
+  position: absolute;
+  width: 23px;
+  height: 24px;
+  left: 22px;
+  top: 315px;
+}
+.divi1{
+  position: absolute;
+  width: 328px;
+  height: 0.1px;
+  left: 12px;
+  top: 355.5px;
+  border: 0.5px solid rgba(151, 151, 151, 0.495493);
+}
+.payment{
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 60px;
+  top: 375px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.pimg{
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  left: 20px;
+  top: 375px;
+}
+.divi2{
+  position: absolute;
+  width: 328px;
+  height: 0.1px;
+  left: 12px;
+  top: 410px;
+  border: 0.5px solid rgba(151, 151, 151, 0.495493);
+}
+.address{
+  position: absolute;
+  width: 77px;
+  height: 19px;
+  left: 60px;
+  top: 427px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.aimg{
+  position: absolute;
+  width: 13px;
+  height: 18px;
+  left: 25px;
+  top: 427px;
+}
+.divi3{
+  position: absolute;
+  width: 328px;
+  height: 0.11px;
+  left: 12px;
+  top: 460px;
+  border: 0.1px solid rgba(151, 151, 151, 0.495493);
+}
+.logout{
+  position: absolute;
+  width: 46px;
+  height: 19px;
+  left: 60px;
+  top: 477px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.limg{
+  position: absolute;
+  width: 24px;
+  height: 16px;
+  left: 22px;
+  top: 477px;
+}
+.divi4{
+  position: absolute;
+  width: 328px;
+  height: 0.1px;
+  left: 12px;
+  top: 510px;
+  border: 0.1px solid rgba(151, 151, 151, 0.495493);
+}
