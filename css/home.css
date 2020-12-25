@@ -70,6 +70,8 @@ body{
   height: 16px;
   left: 40px;
   top: 8px;
+  border:none;
+  outline:none;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -244,10 +246,11 @@ body{
   position: absolute;
   width: 164px;
   height: 30px;
-  left: 16px;
+  left: 8px;
   top: 390px;
   background-color:#BB4B29;
   border-radius: 10px;
+  border-color:#BB4B29;
 }
 .text{
   position: absolute;
@@ -381,6 +384,7 @@ body{
   top: 113px;
   background: #D2872A;
   border-radius: 0px 16px;
+  border-color:#D2872A;
 }
 .plus{
   position: absolute;
@@ -417,6 +421,8 @@ body{
   height: 156px;
   left: 16px;
   top: 825px;
+  outline:none;
+  border:none;
 }
 .cate2{
   position: absolute;
@@ -424,6 +430,8 @@ body{
   height: 156px;
   left: 188px;
   top: 825px;
+  outline:none;
+  border:none;
 }
 .cate3{
   position: absolute;
@@ -431,6 +439,8 @@ body{
   height: 156px;
   left: 16px;
   top: 997px;
+  outline:none;
+  border:none;
 }
 .cate4{
   position: absolute;
@@ -438,6 +448,8 @@ body{
   height: 156px;
   left: 189px;
   top: 995px;
+  outline:none;
+  border:none;
 }
 .cate5{
   position: absolute;
@@ -445,6 +457,8 @@ body{
   height: 156px;
   left: 16px;
   top: 1169px;
+  outline:none;
+  border:none;
 }
 .mbut1{
   position: absolute;
