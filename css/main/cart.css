@@ -370,6 +370,8 @@
   width:25px;
   left: 10%;
   top:16%;
+  border:none;
+  background:none;
 }
 .plus{
   position: absolute;
@@ -378,6 +380,8 @@
   height:20px;
   width:20px;
   text-decoration: none;
+  border:none;
+  background:none;
 }
 .numbback{
   position: absolute;
@@ -467,11 +471,12 @@
   top: 15px;
   background: #BB4B29;
   border-radius: 16px;
+  border:none;
 }
 .ctext{
   position: absolute;
   height: 22px;
-  left: 20%;
+  left: 10%;
   right: 17.05%;
   top: calc(50% - 22px/2);
   font-family: Open Sans;
