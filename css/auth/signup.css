@@ -2,6 +2,7 @@
   overflow-x: hidden;
   padding: 0px !important;
   margin: 0px !important;
+  height:900px;
 }
 .phone {
   width: 86px;
@@ -98,7 +99,6 @@
   left: 16px;
   overflow: hidden;
 }
-
 .nicon{
   position: absolute;
   width: 25px;
@@ -122,7 +122,6 @@
 .ntext:focus{
   outline: none;
 }
-
 .or {
  width: 23px;
  color: rgba(0,0,0,1);
@@ -146,7 +145,6 @@
  opacity: 1;
  text-align: left;
 }
-
 #a3:link, #a3:visited, #a3:active, #a3:hover{
   text-decoration: none;
   color:black;
@@ -166,7 +164,7 @@
   width: 10px;
   height: 16px;
   left: 16px;
-  top: 24px;
+  top: 22px;
 }
 .heading{
   position: relative;
@@ -184,4 +182,59 @@
 #a4:link, #a4:visited, #a4:active, #a4:hover{
   text-decoration: none  !important;
   color:rgba(187,75,41,1);
+}
+.terms{
+  position: absolute;
+  width: 280px;
+  left: 45px;
+  top: 80px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align:justify;
+  color: #352732;
+}
+.content{
+  position: absolute;
+  width: 280px;
+  height:500px;
+  left: 45px;
+  top: 80px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align:justify;
+  color: #352732;
+}
+.content1{
+  position: absolute;
+  width: 280px;
+  height:500px;
+  left: 45px;
+  top: 340px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align:justify;
+  color: #352732;
+}
+.content2{
+  position: absolute;
+  width: 280px;
+  height:500px;
+  left: 45px;
+  top: 515px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align:justify;
+  color: #352732;
 }
