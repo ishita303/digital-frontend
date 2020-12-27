@@ -196,6 +196,19 @@
   text-align:justify;
   color: #352732;
 }
+.privacy{
+  position: absolute;
+  width: 280px;
+  left: 45px;
+  top: 80px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align:justify;
+  color: #352732;
+}
 .content{
   position: absolute;
   width: 280px;
