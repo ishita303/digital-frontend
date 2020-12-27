@@ -36,6 +36,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g2{
   position: absolute;
@@ -46,6 +47,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g3{
   position: absolute;
@@ -56,6 +58,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g4{
   position: absolute;
@@ -66,6 +69,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g5{
   position: absolute;
@@ -76,6 +80,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g6{
   position: absolute;
@@ -86,6 +91,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g7{
   position: absolute;
@@ -96,6 +102,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g8{
   position: absolute;
@@ -106,6 +113,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g9{
   position: absolute;
@@ -116,6 +124,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g10{
   position: absolute;
@@ -126,6 +135,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g11{
   position: absolute;
@@ -136,6 +146,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .g12{
   position: absolute;
@@ -146,6 +157,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  border:none;
 }
 .add{
   position: absolute;
@@ -167,7 +179,59 @@
   position: absolute;
   width: 200px;
   height: 16px;
-  left: 25px;
+  left: 0px;
+  top: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #A5A3A3;
+}
+.addtext1{
+  position: absolute;
+  width: 200px;
+  height: 16px;
+  left: -35px;
+  top: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #A5A3A3;
+}
+.addtext2{
+  position: absolute;
+  width: 200px;
+  height: 16px;
+  left: -50px;
+  top: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #A5A3A3;
+}
+.addtext3{
+  position: absolute;
+  width: 200px;
+  height: 16px;
+  left: -20px;
+  top: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #A5A3A3;
+}
+.addtext4{
+  position: absolute;
+  width: 200px;
+  height: 16px;
+  left: -60px;
   top: 5px;
   font-family: Open Sans;
   font-style: normal;

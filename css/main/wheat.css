@@ -27,6 +27,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+  border:none;
 }
 .wtext1{
   position: absolute;
@@ -58,6 +59,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+  border:none;
 }
 .wtext2{
   position: absolute;
@@ -89,6 +91,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+  border:none;
 }
 .wtext3{
   position: absolute;
@@ -120,6 +123,7 @@
   background: #FFFFFF;
   box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
+  border:none;
 }
 .btext{
   position: absolute;
