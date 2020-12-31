@@ -179,7 +179,7 @@
   position: absolute;
   width: 200px;
   height: 16px;
-  left: 25px;
+  left: 5px;
   top: 5px;
   font-family: Open Sans;
   font-style: normal;
@@ -1027,11 +1027,12 @@
   top: 15px;
   background: #BB4B29;
   border-radius: 16px;
+  border:none;
 }
 .ctext{
   position: absolute;
   height: 22px;
-  left: 20%;
+  left: 10%;
   right: 17.05%;
   top: calc(50% - 22px/2);
   font-family: Open Sans;
@@ -1047,4 +1048,18 @@
   height: 25px;
   left: 110px;
   top: 15px;
+}
+#atta{
+  position: absolute;
+  width: 40px;
+  height: 16px;
+  left: 144px;
+  top: 35px;
+}
+#milli{
+  position: absolute;
+  width: 40px;
+  height: 16px;
+  left: 210px;
+  top: 35px;
 }

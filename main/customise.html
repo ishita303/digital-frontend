@@ -67,20 +67,22 @@
       <div class="col3">Total Amt.</div>
       <div class="flouratta">
         <div class="opt">Customised Atta</div>
-        <button class="range1">02 </button>
+        <select name="atta" id="atta">
+        <option value="02" class="range1">02 </option>
         <span class="divi1" ></span>
-        <button class="range2">05 </button><span class="kg">Kg</span>
+        <option value="05" class="range2">05 </option><span class="kg">Kg</span>
         <span class="divi2"></span>
-        <button class="range3">10 </button>
-        <div class="prop"> - </div>
-        <div class="amt">9999</div>
+        <option value="10" class="range3">10 </option>
+        </select>
+        <input type="text" class="prop"  value="-" disabled="disabled"/>
+        <input type="text" class="amt" value="9999" disabled="disabled"/>
       </div>
       <hr class="sect" />
       <div class="wheatprop">
         <div class="opt">Wheat Platinum</div>
         <div class="price">30/Kg </div>
-        <div class="quant">100 gm </div>
-        <div class="prop"> 100% </div>
+        <input type="text" class="quant" value="100gm" disabled="disabled"/>
+        <input type="text" class="prop" value="100%" disabled="disabled"/>
         <button class="cancel"><span class="cross">x</span></button>
       </div>
       <hr class="sect1" />
@@ -88,11 +90,13 @@
         <div class="opt">Millet (Bajra)</div>
         <div class="price">30/Kg </div>
         <div class="quant">100 gm </div>
-        <button class="range4">04 </button>
+        <select name="milli" id="milli">
+        <option value="04" class="range4">04 </option>
         <span class="divi3" ></span>
-        <button class="range5">05 </button><span class="perc">%</span>
+        <option value="05" class="range5">05 </option><span class="perc">%</span>
         <span class="divi4"></span>
-        <button class="range6">06 </button>
+        <option value="06" class="range6">06 </option>
+      </select>
         <button class="cancel"><span class="cross">x</span></button>
       </div>
       <hr class="sect2" />
@@ -100,11 +104,13 @@
         <div class="opt">Chickpeas (Channa)</div>
         <div class="price">30/Kg </div>
         <div class="quant">100 gm </div>
-        <button class="range4">04 </button>
+        <select name="chan" id="milli">
+        <option value="04" class="range4">04 </option>
         <span class="divi3" ></span>
-        <button class="range5">05 </button><span class="perc">%</span>
+        <option value="05" class="range5">05 </option><span class="perc">%</span>
         <span class="divi4"></span>
-        <button class="range6">06 </button>
+        <option value="06" class="range6">06 </option>
+      </select>
         <button class="cancel"><span class="cross">x</span></button>
       </div>
       <hr class="sect3" />
@@ -112,11 +118,13 @@
         <div class="opt">Arrowroot (Araru/Paniphal)</div>
         <div class="price">30/Kg </div>
         <div class="quant">100 gm </div>
-        <button class="range4">04 </button>
+        <select name="chan" id="milli">
+        <option value="04" class="range4">04 </option>
         <span class="divi3" ></span>
-        <button class="range5">05 </button><span class="perc">%</span>
+        <option value="05" class="range5">05 </option><span class="perc">%</span>
         <span class="divi4"></span>
-        <button class="range6">06 </button>
+        <option value="06" class="range6">06 </option>
+      </select>
         <button class="cancel"><span class="cross">x</span></button>
       </div>
       <hr class="sect4" />
@@ -124,11 +132,13 @@
         <div class="opt">Oats (Jayi)</div>
         <div class="price">30/Kg </div>
         <div class="quant">100 gm </div>
-        <button class="range4">04 </button>
+        <select name="chan" id="milli">
+        <option value="04" class="range4">04 </option>
         <span class="divi3" ></span>
-        <button class="range5">05 </button><span class="perc">%</span>
+        <option value="05" class="range5">05 </option><span class="perc">%</span>
         <span class="divi4"></span>
-        <button class="range6">06 </button>
+        <option value="06" class="range6">06 </option>
+      </select>
         <button class="cancel"><span class="cross">x</span></button>
       </div>
     </div>
@@ -149,7 +159,7 @@
     <div class="cust"><a href="wheat.html" id="a1">New Customisation <span class="arr"><img src="../images/delivery/uparrow.png" /></span></a></div>
     <div class="checkout">
       <span class="items">2 items</span>
-      <button class="cbut"><span class="ctext">Checkout</span><img src="../images/home/more.png" class="carr" /></button>
+      <button class="cbut"><a href="address.html"><span class="ctext">Checkout</span><img src="../images/home/more.png" class="carr" /></a></button>
     </div>
 
   </div>
