@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link href="../css/main/finalcart.css" rel="stylesheet" />
+  <link href="../css/main/custcart.css" rel="stylesheet" />
   <title>Cart</title>
 </head>
 <body>
@@ -12,21 +12,78 @@
         <div class="arrow"><a href="./cart.html"><img src="../images/auth/arrow.png"/></a></div>
         <div class="heading"> Your cart </div>
       </div>
-      <div class="block1">
-        <span class="item">Item 1:</span>
-        <span class="circle"><span class="cross">x</span></span>
-        <span class="atta">Customised Atta</span>
-        <span class="item1">Wheat Platinum</span><span class="weight1">2 Kg</span>
-        <span class="item2">Millet (Bajra)</span><span class="weight2">200 gm</span>
-        <span class="item3">Chickpeas (Channa)</span><span class="weight3">250 gm</span>
-        <span class="item4">Arrowroot (Araru/Paniphal)</span><span class="weight4">50 gm</span>
-        <span class="item5">Oats (Jayi)</span><span class="weight5">2 Kg</span>
-        <hr class="divi" />
-        <span class="total">Total Weight</span><span class="weight6">5 Kg</span>
-        <span class="net">Net Amount</span><span class="amt">250</span>
-        <span class="gtype">Grinding Type: Medium</span><span class="info">Nutritional Info </span><img src="../images/main/info.png" class="i" />
-        <span class="edit">Edit</span><img src="../images/auth/arrow.png" class="earrow"/>
-        <div class="count">
+      <div class="blockie1">
+        <div class="col1">Total Flour Qty.</div>
+        <div class="col2">Mix Proportion</div>
+        <div class="col3">Total Amt.</div>
+        <div class="flouratta">
+          <div class="opt">Flour Mix 1</div>
+          <div class="range1">02 </div>
+          <span class="divi1" ></span>
+          <div class="range2">05 </div><span class="kg">Kg</span>
+          <span class="divi2"></span>
+          <div class="range3">10 </div>
+          <div class="prop"> - </div>
+          <div class="amount">9999</div>
+        </div>
+        <hr class="sect" />
+        <div class="wheatprop">
+          <div class="opt">Wheat Platinum</div>
+          <div class="price">30/Kg </div>
+          <div class="quant">100 gm </div>
+          <div class="prop"> 100% </div>
+          <div class="cancel"><span class="cross">x</span></div>
+        </div>
+        <hr class="sect1" />
+        <div class="millet">
+          <div class="opt">Millet (Bajra)</div>
+          <div class="price">30/Kg </div>
+          <div class="quant">100 gm </div>
+          <div class="range4">04 </div>
+          <span class="divi3" ></span>
+          <div class="range5">05 </div><span class="perc">%</span>
+          <span class="divi4"></span>
+          <div class="range6">06 </div>
+          <div class="cancel"><span class="cross">x</span></div>
+        </div>
+        <hr class="sect2" />
+        <div class="channa">
+          <div class="opt">Chickpeas (Channa)</div>
+          <div class="price">30/Kg </div>
+          <div class="quant">100 gm </div>
+          <div class="range4">04 </div>
+          <span class="divi3" ></span>
+          <div class="range5">05 </div><span class="perc">%</span>
+          <span class="divi4"></span>
+          <div class="range6">06 </div>
+          <div class="cancel"><span class="cross">x</span></div>
+        </div>
+        <hr class="sect3" />
+        <div class="arroroot">
+          <div class="opt">Arrowroot (Araru/Paniphal)</div>
+          <div class="price">30/Kg </div>
+          <div class="quant">100 gm </div>
+          <div class="range4">04 </div>
+          <span class="divi3" ></span>
+          <div class="range5">05 </div><span class="perc">%</span>
+          <span class="divi4"></span>
+          <div class="range6">06 </div>
+          <div class="cancel"><span class="cross">x</span></div>
+        </div>
+        <hr class="sect4" />
+        <div class="oat">
+          <div class="opt">Oats (Jayi)</div>
+          <div class="price">30/Kg </div>
+          <div class="quant">100 gm </div>
+          <div class="range4">04 </div>
+          <span class="divi3" ></span>
+          <div class="range5">05 </div><span class="perc">%</span>
+          <span class="divi4"></span>
+          <div class="range6">06 </div>
+          <div class="cancel"><span class="cross">x</span></div>
+        </div>
+        <span class="done">Done</span><img src="../images/auth/arrow.png" class="darrow"/>
+        <div class="count1">
           <div class="minus"><img src="../images/main/minus.png" /></div>
           <div class="numbback"><span class="numb">1</span></div>
           <div class="plus"><img src="../images/main/plus.png" /></div>
@@ -52,20 +109,13 @@
           <div class="plus"><img src="../images/main/plus.png" /></div>
         </div>
       </div>
-      <div class="inst">Add Instructions (optional)</div><img src="../images/home/more.png" class="iarr" />
-      <div class="dinst">Delivery Instructions</div>
-      <div class="change">Change</div><img src="../images/home/carrow.png" class="cdarr" />
-      <input type="radio" class="rad1" /> <div class="rhead">Hand order to me</div>
-
-      <div class="offer">Offers</div>
-      
 
       <div class="deladd">Delivery Address</div>
       <button class="but1" onclick="address.html"><span class="butext">Add Address</span></button>
 
       <div class="checkout">
         <span class="items">2 items</span>
-        <button class="cbut"><span class="ctext">Proceed</span><img src="../images/home/more.png" class="carr" /></button>
+        <div class="cbut"><span class="ctext">Proceed</span><img src="../images/home/more.png" class="carr" /></div>
       </div>
   </div>
 </body>

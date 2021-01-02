@@ -64,16 +64,6 @@
   line-height: 16px;
   color: rgba(53, 48, 48, 0.4);
 }
-.intext{
-  position: absolute;
-  width: 280px;
-  height: 25px;
-  left: 33px;
-  top: 0px;
-  outline: none;
-  border: none;
-  background: transparent;
-}
 .add{
   position: absolute;
   width: 200px;
@@ -105,34 +95,6 @@
   width: 328px;
   height: 30px;
   left: 16px;
-  top: 210px;
-  outline: none;
-  border: none;
+  top: 243.5px;
   border-bottom: 1px solid #979797;
-}
-.save{
-  position: absolute;
-  width: 328px;
-  height: 50px;
-  left: 4.44%;
-  right: 4.44%;
-  top: 87.36%;
-  bottom: 20.37%;
-  background: #BB4B29;
-  border-radius: 16px;
-  border: 2px #BB4B29;
-}
-.butext{
-  position: absolute;
-  width:300px;
-  height: 22px;
-  left: 20px;
-  top: calc(50% - 22px/2);
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #FFFFFF;
 }

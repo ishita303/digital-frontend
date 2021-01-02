@@ -1,0 +1,242 @@
+.main{
+  width: 360px;
+  height: 850px;
+  overflow-x: hidden;
+}
+#a1:link, #a1:visited, #a1:active, #a1:hover{
+  text-decoration: none  !important;
+  color:#FFFFFF;
+}
+.navi{
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  left:0px;
+  top:0px;
+  background: #F8F9FB;
+}
+.arrow{
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  left: 16px;
+  top: 20px;
+}
+.heading{
+  position: absolute;
+  width: 300px;
+  height: 22px;
+  left: 42px;
+  top: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #352732;
+}
+.loci{
+  position: absolute;
+  width: 11px;
+  height: 15px;
+  left: 16px;
+  top: 98px;
+}
+.add{
+  position: absolute;
+  width: 114px;
+  height: 19px;
+  left: 31px;
+  top: 96px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #352732;
+}
+.adddetail{
+  position: absolute;
+  width: 400px;
+  height: 19px;
+  left: 16px;
+  top: 120px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #352732;
+}
+#r1{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 16px;
+  top: 173px;
+}
+.rval1{
+  position: absolute;
+  width: 101px;
+  height: 16px;
+  left: 45px;
+  top: 176px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+#r2{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 16px;
+  top: 194px;
+}
+.rval2{
+  position: absolute;
+  width: 90px;
+  height: 16px;
+  left: 45px;
+  top: 198px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+#r3{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 16px;
+  top: 215px;
+}
+.rval3{
+  position: absolute;
+  width: 176px;
+  height: 16px;
+  left: 45px;
+  top: 219px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.divi1{
+  position: absolute;
+  width: 360px;
+  height: 0.01px;
+  left: 0px;
+  top: 256px;
+  border: 0.1px solid rgba(151, 151, 151, 0.500628);
+}
+.head2{
+  position: absolute;
+  width: 124px;
+  height: 19px;
+  left: 16px;
+  top: 275px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+#r4{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 16px;
+  top: 300px;
+}
+.rval4{
+  position: absolute;
+  width: 98px;
+  height: 16px;
+  left: 45px;
+  top: 303px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.divi2{
+  position: absolute;
+  width: 360px;
+  height: 0.01px;
+  left: 0px;
+  top: 326px;
+  border: 0.01px solid rgba(151, 151, 151, 0.500628);
+}
+#r5{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 16px;
+  top: 343px;
+}
+.rval5{
+  position: absolute;
+  width: 192px;
+  height: 16px;
+  left: 45px;
+  top: 346px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+#r6{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 16px;
+  top: 367px;
+}
+.rval6{
+  position: absolute;
+  width: 136px;
+  height: 16px;
+  left: 45px;
+  top: 370px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.ibut{
+  position: absolute;
+  width: 328px;
+  height: 54px;
+  left: 16px;
+  top: 415px;
+  background: #BB4B29;
+  border-radius: 16px;
+  border:none;
+}
+.ival{
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 150px;
+  top: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
